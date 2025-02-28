@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test de Estado Emocional</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Test de Estado Emocional</h1>
+        <p>Responde con sinceridad para conocer cómo te sientes emocionalmente.</p>
+
+        <form id="quiz-form">
+            <div id="questions"></div>
+            <button type="button" onclick="calcularResultado()">Ver Resultado</button>
+        </form>
+
+        <div class="progress-container">
+            <p>Tu estado emocional:</p>
+            <div class="progress-bar">
+                <div id="progress" class="progress"></div>
+            </div>
+            <p id="resultado"></p>
+            <p id="mensaje"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
